@@ -1,0 +1,23 @@
+﻿<Window x:Class="LearningAndTesting.Wpf.Question_WhatIsCSharp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LearningAndTesting.Wpf"
+        mc:Ignorable="d"
+        Title="Question_WhatIsCSharp" 
+        Height="645" Width="797"
+        WindowStartupLocation="Manual"
+        Left="562"
+        Top="223"
+        WindowStyle="None">
+    <Grid>
+        <TextBlock Margin="25,37,-5,422" FontSize="20" FontWeight="ExtraBlack" FontFamily="Verdana" TextWrapping="Wrap">Question: </TextBlock>
+        <TextBlock Margin="25,77,-5,382" FontSize="20" FontFamily="Verdana" TextWrapping="Wrap">What is C#?</TextBlock>
+
+        <TextBlock Margin="25,170,-5,24" FontSize="20" FontWeight="ExtraBlack" FontFamily="Verdana" TextWrapping="Wrap">Answer:</TextBlock>
+        <TextBlock Margin="25,211,29,-17" FontSize="20" FontFamily="Verdana" TextWrapping="Wrap">C# is a modern, general-purpose, object-oriented programming language developed by Microsoft. C# is designed for Common Language Infrastructure (CLI), which consists of the executable code and runtime environment that allows use of various high-level languages on different computer platforms and architectures.</TextBlock>
+        <Button x:Name="closeButton" Content="X" HorizontalAlignment="Left" Margin="758,10,0,0" VerticalAlignment="Top" Width="21" Click="closeButton_Click"/>
+
+    </Grid>
+</Window>
