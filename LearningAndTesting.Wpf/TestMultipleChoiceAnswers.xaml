@@ -9,7 +9,7 @@
     <Grid>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="150" Margin="23,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="393"/>
 
-        <TextBlock x:Name="questionViewDisplay" HorizontalAlignment="Left" Margin="35,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="108" Width="372" Text="blank question lmaoooo"/>
+        <TextBlock x:Name="questionViewDisplay" HorizontalAlignment="Left" Margin="35,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="108" Width="372"/>
         <Button x:Name="answerButtonA" Content="" HorizontalAlignment="Left" Margin="124,193,0,0" VerticalAlignment="Top" Width="143" Height="28"/>
         <Button x:Name="answerButtonB" Content="" HorizontalAlignment="Left" Margin="124,236,0,0" VerticalAlignment="Top" Width="143" Height="28"/>
         <Button x:Name="answerButtonC" Content="" HorizontalAlignment="Left" Margin="124,279,0,0" VerticalAlignment="Top" Width="143" Height="28"/>
