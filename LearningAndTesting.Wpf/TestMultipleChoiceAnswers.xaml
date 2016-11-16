@@ -13,6 +13,7 @@
         <Button x:Name="answerButtonA" Content="" HorizontalAlignment="Left" Margin="124,193,0,0" VerticalAlignment="Top" Width="143" Height="28"/>
         <Button x:Name="answerButtonB" Content="" HorizontalAlignment="Left" Margin="124,236,0,0" VerticalAlignment="Top" Width="143" Height="28"/>
         <Button x:Name="answerButtonC" Content="" HorizontalAlignment="Left" Margin="124,279,0,0" VerticalAlignment="Top" Width="143" Height="28"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="341,206,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
